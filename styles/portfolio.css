@@ -1,10 +1,18 @@
-h1 {
-  color: black;
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
+:root {
+  --heading-font-family: "Julius Sans One", sans-serif;
+  --default-font-family: "Crimson Text", serif;
+  --default-text-color: #dcdad9;
 }
 
-p {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
+.hero {
+  text-align: center;
+  background-color: #293f3f;
+  color: var(--default-text-color);
+  font-family: var(--heading-font-family);
+  padding: 25px;
+  margin: 15px;
+}
+
+.hero h2 {
+  font-size: large;
 }
