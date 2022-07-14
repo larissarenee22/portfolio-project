@@ -27,16 +27,17 @@
     ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Julius+Sans+One&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"
       rel="stylesheet"
     />
-    <script
-      src="https://kit.fontawesome.com/b377c01700.js"
-      crossorigin="anonymous"
-    ></script>
+
     <link rel="stylesheet" href="styles/portfolio.css" />
     <title>Larissa Ford</title>
   </head>
@@ -47,16 +48,35 @@
     </div>
     <div class="directory">
       <h1>Work Portfolio Directory</h1>
-      <i class="fa fa-solid fa-cloud-sun"></i>
-      <h5>Weather App</h5>
-      <i class="fa fa-solid fa-book"></i>
-      <h5>Dictionary App</h5>
-      <i class="fa fa-solid fa-campground"></i>
-      <h5>Camping App</h5>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <img src="/images/book.png" alt="Book Icon" />
+            <br>
+            <button>Dictionary App</button>
+          </div>
+          <div class="col-sm">
+            <img src="/images/sun.png" alt="Sun Icon" />
+            <br>
+            <button>Weather App</button>
+          </div>
+          <div class="col-sm">
+            <img src="/images/tent.png" alt="Tent Icon" />
+            <br>
+          <button>Camping App</button>
+        </div>
+      </div>
     </div>
     <div class="about-directory">
-      <h1>About Me . . .</h1>
-      <p>Stay at home mom & my journey to Coding</p>
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <button><img src="/images/mom.png" alt="Mom Icon" class="mom" /></button>
+        </div>
+        <div class="col-4">
+          <h1>About Me</h1>
+          <p>Stay at home mom & my journey to Coding</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

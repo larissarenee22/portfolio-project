@@ -1,17 +1,14 @@
 :root {
-  --heading-font-family: "Julius Sans One", sans-serif;
-  --default-font-family: "Crimson Text", serif;
-  --default-text-color: black;
+  --heading-font-family: "pacifico", cursive;
+  --default-font-family: "Amatic SC", cursive;
+  --default-text-color: #4671c6;
   --default-border-color: white;
-  --default-background-color: linear-gradient(
-    109.6deg,
-    rgb(204, 228, 247) 11.2%,
-    rgb(237, 246, 250) 100.2%
-  );
 }
 
 body {
-  background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+  background-image: url(../images/yellow.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero {
@@ -24,20 +21,21 @@ body {
   margin: 15px;
   border: 5px solid;
   border-color: var(--default-border-color);
-  opacity: 0.7;
 }
 
 .hero h2 {
   font-size: large;
+  font-family: var(--default-font-family);
+  font-size: 25px;
 }
 
 .directory {
-  background: var(--default-background-color);
   margin: 15px;
   font-family: var(--default-font-family);
   border: 5px solid;
   border-color: var(--default-border-color);
-  opacity: 0.7;
+  text-align: center;
+  color: var(--default-text-color);
 }
 
 .directory h1 {
@@ -47,12 +45,33 @@ body {
   padding: 15px;
 }
 
+button {
+  font-size: 20px;
+  background-color: transparent;
+  color: #4671c6;
+  margin-top: 5px;
+  border: solid white 5px;
+}
+
 .about-directory {
   border: 5px solid;
   padding: 25px;
   margin: 15px;
   background: var(--default-background-color);
   border-color: var(--default-border-color);
-  opacity: 0.7;
   font-family: var(--heading-font-family);
+}
+
+.about-directory h1 {
+  font-size: 25px;
+}
+
+p {
+  font-family: var(--default-font-family);
+  font-size: 23px;
+}
+
+.mom {
+  padding: 15px;
+  margin: 15px;
 }
