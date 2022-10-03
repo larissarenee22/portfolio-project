@@ -1,8 +1,8 @@
 :root {
   --heading-font-family: "Libre Baskerville", serif;
   --default-font-family: "Open sans", sans-serif;
-  --default-text-color: #4671c6;
-  --default-border-color: white;
+  --default-text-color: #dbd8e3;
+  --default-border-color: #5c5470;
 }
 
 body {
