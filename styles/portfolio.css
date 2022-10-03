@@ -19,7 +19,7 @@ body {
   font-family: var(--heading-font-family);
   padding: 25px;
   margin: 15px;
-  border: 1px solid;
+  border: 5px solid;
   border-color: var(--default-border-color);
 }
 
@@ -50,7 +50,7 @@ button {
   background-color: transparent;
   color: var(--default-text-color);
   margin-top: 5px;
-  border: solid var(--default-border-color) 5px;
+  border: solid var(--default-border-color) 1px;
 }
 
 .about-directory {
