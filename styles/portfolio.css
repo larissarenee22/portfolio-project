@@ -48,9 +48,9 @@ body {
 button {
   font-size: 20px;
   background-color: transparent;
-  color: #4671c6;
+  color: var(--default-text-color);
   margin-top: 5px;
-  border: solid white 5px;
+  border: solid var(--default-border-color) 5px;
 }
 
 .about-directory {
