@@ -8,6 +8,26 @@ body {
   background-color: #f2ded7;
 }
 
+.navbar-custom {
+  background-color: var(--default-border-color);
+  font-family: var(--default-font-family);
+}
+
+.navbar-brand {
+  color: #6f8e88;
+  border: solid 2px #6f8e88;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.navbar-toggler {
+  color: #6f8e88;
+}
+
+.nav-link {
+  color: #6f8e88;
+}
+
 .hero {
   text-align: left;
   color: var(--default-text-color);
