@@ -1,77 +1,77 @@
 :root {
-  --heading-font-family: "Libre Baskerville", serif;
-  --default-font-family: "Open sans", sans-serif;
-  --default-text-color: #dbd8e3;
-  --default-border-color: #5c5470;
+  --default-font-family: "Comfortaa", cursive;
+  --default-text-color: white;
+  --default-border-color: #f8f3ef;
 }
 
 body {
-  background-color: #2a2438;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #f2ded7;
 }
 
 .hero {
-  text-align: center;
-  background: var(--default-background-color);
-
+  text-align: left;
   color: var(--default-text-color);
-  font-family: var(--heading-font-family);
+  font-family: var(--default-font-family);
   padding: 25px;
   margin: 15px;
   border: 5px solid;
+  border-radius: 15px;
   border-color: var(--default-border-color);
+  background-color: #6f8e88;
 }
 
 .hero h2 {
-  font-size: large;
   font-family: var(--default-font-family);
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .directory {
   margin: 15px;
   font-family: var(--default-font-family);
   border: 5px solid;
+  border-radius: 15px;
   border-color: var(--default-border-color);
   text-align: center;
   color: var(--default-text-color);
+  padding: 10px;
+  background-color: #efc5b9;
 }
 
 .directory h1 {
-  font-family: var(--heading-font-family);
+  font-family: var(--default-font-family);
   font-size: 25px;
   text-align: center;
   padding: 15px;
 }
 
 button {
-  font-size: 20px;
+  font-size: 15px;
   background-color: transparent;
   color: var(--default-text-color);
   margin-top: 5px;
-  border: solid var(--default-border-color) 1px;
+  border: solid var(--default-border-color) 2px;
+  border-radius: 15px;
+  padding: 10px;
 }
 
 .about-directory {
   border: 5px solid;
+  border-radius: 15px;
   padding: 25px;
   margin: 15px;
-  background: var(--default-background-color);
+  background: #dbcfc3;
   border-color: var(--default-border-color);
-  font-family: var(--heading-font-family);
-}
-
-.about-directory h1 {
-  font-size: 25px;
+  font-family: var(--default-font-family);
+  color: var(--default-text-color);
 }
 
 p {
   font-family: var(--default-font-family);
-  font-size: 23px;
+  font-size: 15px;
 }
 
 .mom {
-  padding: 15px;
-  margin: 15px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
 }

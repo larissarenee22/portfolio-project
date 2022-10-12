@@ -27,21 +27,55 @@
     ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/portfolio.css" />
     <title>Larissa Ford</title>
+    <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
   </head>
   <body>
     <div class="hero">
-      <h1>Hello there! My name is Larissa Ford</h1>
+      <h1>Hi there!
+        <br>I am Larissa Ford.</h1>
       <h2>Front-end developer based in North Carolina</h2>
     </div>
     <div class="directory">
-      <h1>Work Portfolio Directory</h1>
+      <h1>Look what I've been working on.</h1>
       <div class="container">
         <div class="row">
           <div class="col-sm">
@@ -61,16 +95,16 @@
         </div>
       </div>
     </div>
+    </div>
     <div class="about-directory">
-      <div class="row justify-content-center">
-        <div class="col-4">
-          <button><img src="/images/mom.png" alt="Mom Icon" class="mom" /></button>
+      <div class="row justify-content-">
+        <div class="col-6">
+          <h1>About Me.</h1>
+          <p>Stay at home mom who has began a journey to master code & begin my career of creating.</p>
         </div>
-        <div class="col-4">
-          <h1>About Me</h1>
-          <p>Stay at home mom & my journey to Coding</p>
+        <div class="col-6">
+          <button class="mom"><img src="/images/mom.png" alt="Mom Icon" class="mom" /></button>
         </div>
       </div>
-    </div>
   </body>
 </html>
