@@ -106,11 +106,6 @@ p {
   padding: 10px;
 }
 
-.icons {
-  margin: auto;
-  display: inline;
-}
-
 .about-h1 {
   text-align: center;
   font-family: var(--default-font-family);
@@ -183,7 +178,25 @@ h3 {
 .portfolio-h1 {
   text-align: center;
   font-family: var(--default-font-family);
-  color: var(--default-text-color);
+  color: #6f8e88;
   padding: 25px;
   margin: 15px;
+}
+
+.work {
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-family: var(--default-font-family);
+  color: var(--default-text-color);
+  border: var(--default-border-color) 5px solid;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 15px;
+  background-color: #efc5b9;
+}
+
+.project-p {
+  text-align: left;
+  font-size: 13px;
 }
