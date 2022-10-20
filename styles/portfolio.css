@@ -201,16 +201,3 @@ h3 {
   font-size: 18px;
   line-height: 45px;
 }
-
-.footer-contact {
-  border: solid var(--default-border-color) 5px;
-  border-radius: 15px;
-  background-color: #6f8e88;
-  margin: 15px;
-  text-align: center;
-  padding: 10px;
-  position:sticky
-  left: 0%;
-  bottom: 0%;
-  width: 95%;
-}
